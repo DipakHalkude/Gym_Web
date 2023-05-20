@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gym Hub</title>
+</head>
+<link rel="stylesheet" href="css/style.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Audiowide">
+<style>
+    body {
+        margin: 0px;
+        padding: 0px;
+        background: url("1633830.jpg");
+        color: aliceblue;
+        font-family: "Audiowide", sans-serif;
+    }
+
+    .left {
+        display: inline-block;
+        position: absolute;
+        left: 34px;
+        top: 20px;
+        /* border: 2px solid red; */
+
+
+
+    }
+
+    .mid {
+        display: block;
+        width: 48%;
+        margin: 30px auto;
+        /* border: 2px solid green; */
+    }
+
+    .right {
+        display: inline-block;
+        position: absolute;
+        right: 34px;
+        top: 40px;
+        /* border: 2px solid red; */
+    }
+
+    .navbar {
+        display: inline-block;
+
+    }
+
+    .navbar li {
+
+        display: inline-block;
+
+    }
+
+    .navbar li a {
+        text-decoration: none;
+        padding: 30px 20px;
+        font-size: 25px;
+        font-style: italic;
+        color: white;
+
+    }
+
+    .navbar li a:hover {
+        text-decoration: underline;
+        color:lightcoral;
+    }
+
+    .left img {
+        width: 100px;
+        height: 62px;
+        position: relative;
+        left: 20px;
+    }
+
+
+    .left div {
+        text-align: center;
+        line-height: 20px;
+    }
+
+    .left div:hover{
+        text-decoration: underline;
+        color: #06f13f;
+        cursor: pointer;
+    }
+
+    .btn {
+        margin: 5px 1px;
+        background-color: black;
+        color: aliceblue;
+        padding: 4px 14px;
+        border: 2px solid gray;
+        border-radius: 10px;
+        font-size: 20px;
+        cursor: pointer;
+        font-family: "Audiowide", sans-serif;
+
+    }
+
+    .btn:hover {
+        background-color: rgb(65, 94, 84);
+        color: brown;
+    }
+
+    .container {
+        /* border: 2px solid #06f13f; */
+        margin: 155px 350px;
+        padding: 10px;
+        border-radius: 40px;
+        width: 50%;
+    }
+
+    .formgroup input {
+        text-align: center;
+        display: block;
+        width: 508px;
+        padding: 1px;
+        border: 2px solid black;
+        margin: 3px auto;
+        font-size: 25px;
+        border-radius: 8px;
+        font-family: "Audiowide", sans-serif;
+    }
+
+    .container h2 {
+        text-align: center;
+    }
+
+    .container button {
+        display: block;
+        width: 70%;
+        margin: auto;
+    }
+</style>
+
+<body>
+    <header>
+        <div class="left">
+            <img src="Logo.png" alt="none">
+            <div> DIPAK FITNESS</div>
+        </div>
+        <div class="mid">
+            <ul class="navbar">
+                <li><a href="#">Home </a></li>
+                <li><a href="#">About </a></li>
+                <li><a href="#">Fitness Info </a></li>
+                <li><a href="#">Contact Us</a></li>
+            </ul>
+        </div>
+        <div class="right">
+            <button class="btn"> Call us now</button>
+            <button class="btn"> Email us</button>
+
+        </div>
+    </header>
+
+    <div class="container">
+        <h2> Join Our GYM in Pune </h2>
+        <form action="nocation.php">
+            <div class="formgroup">
+                <input type="text" name="" placeholder="Enter your name">
+            </div>
+            <div class="formgroup">
+                <input type="text" name="" placeholder="Enter your Age">
+            </div>
+            <div class="formgroup">
+                <input type="text" name="" placeholder="Enter your Gender">
+            </div>
+            <div class="formgroup">
+                <input type="text" name="" placeholder="Enter your Address">
+            </div>
+            <button class="btn">Submit</button>
+        </form>
+    </div>
+</body>
+
+</html>
